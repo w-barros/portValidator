@@ -34,6 +34,7 @@ Allows for trailing spaces, which are somewhat common due to port values being c
 </ul>
 
 Includes some tests made with Jest:
+<br>
 ![image](https://user-images.githubusercontent.com/75806115/190468358-b7f82630-7659-45dc-8eea-6def294557a7.png)
 
 
