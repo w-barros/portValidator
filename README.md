@@ -30,6 +30,11 @@ Refuses common typos that may happen when dealing with such text.
 <li>
 Allows for trailing spaces, which are somewhat common due to port values being copy&pasted sometimes.
 </li>
+  
+  
+<li>
+It`s somewhat overly commented for better understanding.
+</li>
 
 </ul>
 
