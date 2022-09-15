@@ -1,9 +1,9 @@
 # portValidator
-<h1> Port Validator </h1>
+
 Hello. This a simple validator for text input containing <a href="https://en.wikipedia.org/wiki/Port_(computer_networking)">Network Ports</a> made with Typescript.
 Main use is for validating user input for allowing/denying certain ports on a network security equipment interfacing system.
-
-current funcionality:
+<br>
+Current funcionality:
 <ul>
 
 <li>
@@ -32,5 +32,9 @@ Allows for trailing spaces, which are somewhat common due to port values being c
 </li>
 
 </ul>
+
+Includes some tests made with Jest:
+![image](https://user-images.githubusercontent.com/75806115/190468358-b7f82630-7659-45dc-8eea-6def294557a7.png)
+
 
 Feel free to fork or reach out. Cheers!
