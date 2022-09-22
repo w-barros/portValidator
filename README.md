@@ -21,22 +21,23 @@ Accepts valid port ranges - within valid port range and start is lesser than end
 <li>
 Accepts combinations of single ports and port ranges. Ie: "1010-2020 20 3030-4040 50"
 </li>
-
+  
+<li>
+Refuses repeated ports or port ranges. Ie: "8080 8080", "10-20 30 10-20".
+</li>
 
 <li>
 Refuses common typos that may happen when dealing with such text.
 </li>
-
-<li>
-Allows for trailing spaces, which are somewhat common due to port values being copy&pasted sometimes.
-</li>
-  
-  
+    
 <li>
 It`s somewhat overly commented for better understanding.
 </li>
 
 </ul>
+
+Known issues:
+Accepts overlapping ranges, Ie: "15 10-20". Will look at this soon.
 
 Includes some tests made with Jest:
 <br>
